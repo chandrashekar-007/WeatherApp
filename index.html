@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="logo"><img src="images/logo.png" alt=""></span>
+            <p id="wlogo">Weather Forecasting App</p>
+            <div class="sidebar">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa fa-bars" id="ham_menu"></i>
+                <!-- <fa-remove></fa-remove> -->
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <div class="container">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name...">
+                <button class="btn"><img src="images/search.png" alt="search-icon"></button>
+            </div>
+            <div class="invalid">
+                <p class="err">
+                    Invalid City - Please enter a valid city
+                </p>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" alt="rain-img" class="icon-weather">
+                <h1 class="temp">30°C</h1>
+                <h2 class="city">Karnal</h2>
+                <div class="details">
+                    <div class="same">
+                        <img src="images/humidity.png" alt="humidity-img" class="src">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="same">
+                        <img src="images/wind.png" alt="wind-img" class="src">
+                        <div>
+                            <p class="wind">10 km/h</p>
+                            <p>Wind</p>
+                        </div>
+                    </div>
+                    <div class="same atm_pressure">
+                        <img src="images/pressure.png" alt="pressure-img" class="src">
+                        <div>
+                            <p class="pressure">500 hPa</p>
+                            <p>Pressure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <p>@ Copyright - All rights reserved</p>
+        </div>
+        <div class="col">
+
+            <div class="col1">
+                <div>
+                    <h3>Connect with us via : </h3><hr>
+                </div>
+                <div class="py">
+                    <div class="img"><img src="" id="img1">
+                        cs839694@gmail.com
+                    </div>
+                    <div class="img"><img src="" id="img2">
+                        +919350246766
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div><h3>Follow for more:</h3><hr></div>
+                <div>
+                    <ul>
+                        <li><a href=""></a>Instagram</li>
+                        <li><a href=""></a>Facebook</li>
+                        <li><a href=""></a>Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
